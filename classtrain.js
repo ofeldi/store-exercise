@@ -48,7 +48,7 @@ app.get('/products', (req, res) => {
 
 app.get('/products/:id', (req, res) => {    
     res.send(req.param[1]);
-    console.log("req param works");
+    console.log("req param worksc");
 });
 
 
